@@ -2,7 +2,7 @@
 **Project's Objective:**
 To develop a comprehensive credit card weekly dashboard which provides real-time insights to key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations more effectively.
 
-**🔗 [Live Dashboard](https://app.powerbi.com/groups/me/reports/afe1b36b-8b62-4dc0-9ef6-f7ea02cb129d/75bc4b3eaa5857a346e1?experience=power-bi&clientSideAuth=0)**
+**🔗 [Live Dashboard]()**
 
 **Steps Followed:**
 
