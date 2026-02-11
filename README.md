@@ -1,6 +1,6 @@
 # Credit_Card_Transaction and-Customer_Analysis using Power BI
 **Project's Objective:**
-To develop a comprehensive credit card weekly dashboard which provides real-time insights to key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations more effectively.
+To develop a comprehensive credit card weekly dashboard which provides real-time insights to key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations more effectively..
 
 **🔗 [Live Dashboard](https://app.powerbi.com/links/S7wsCdJhc4?ctid=c6e549b3-5f45-4032-aae9-d4244dc5b2c4&pbi_source=linkShare&bookmarkGuid=a131ec29-5c07-4fb3-b422-ed51f19c0444)**
 
