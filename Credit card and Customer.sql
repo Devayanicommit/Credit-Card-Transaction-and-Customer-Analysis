@@ -1,6 +1,6 @@
 -- 1. Create cc_detail table
 
-CREATE TABLE cc_detail ((
+CREATE TABLE cc_detail (
     Client_Num INT,
     Card_Category VARCHAR(20),
     Annual_Fees INT,
@@ -91,5 +91,6 @@ COPY cust_detail
 FROM 'D:\cust_add.csv' 
 DELIMITER ',' 
 CSV HEADER;
+
 
 
