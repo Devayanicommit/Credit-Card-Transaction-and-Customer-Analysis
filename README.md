@@ -21,6 +21,7 @@ Current Week Revenue: Current_Week_Revenue = CALCULATE(SUM('cc_detail'[Revenue])
 WoW Revenue Growth: Calculated the 28.8% increase by comparing Current vs. Previous week metrics.
 
 📊 Strategic Business Insights
+
 Revenue Concentration: 93% of transaction volume is driven by Blue & Silver card tiers, suggesting a massive opportunity for upselling to Gold/Platinum.
 High-Value Segments: Graduates and Business professionals contribute $37M to the total revenue.
 
