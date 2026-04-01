@@ -16,10 +16,12 @@ Data Modeling: Star Schema (Fact & Dimension tables)
 🚀 Key Technical Implementation
 1. SQL Data Transformation
 I used SQL to clean and prepare the raw transaction data before importing it into Power BI.
-2. Advanced DAX Measures
+### 2. Advanced DAX Measures
 To track performance dynamically, I developed custom DAX formulas:
 
-Current Week Revenue: Current_Week_Revenue = 
+**Current Week Revenue:**
+```dax
+Current_Week_Revenue = 
 CALCULATE(
     SUM('cc_detail'[Revenue]), 
     FILTER(
@@ -28,15 +30,19 @@ CALCULATE(
     )
 )
 
-Previous Week Revenue:Previous_Week_Revenue = 
+**Previous Week Revenue:**
+```dax
+Previous_Week_Revenue = 
 CALCULATE(
     SUM('cc_detail'[Revenue]), 
     FILTER(
         ALL('cc_detail'), 
         'cc_detail'[Week_Num2] = MAX('cc_detail'[Week_Num2]) - 1
     )
-    
-Week-over-Week (WoW) Revenue Growth:WoW_Revenue_Growth = 
+
+**Week-over-Week (WoW) Revenue**
+```dax
+WoW_Revenue_Growth = 
 DIVIDE(
     ([Current_Week_Revenue] - [Previous_Week_Revenue]), 
     [Previous_Week_Revenue], 
