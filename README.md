@@ -12,8 +12,23 @@ Visualization: Power BI Desktop
 DAX: Time Intelligence, Measures, and Calculated Columns
 Data Modeling: Star Schema (Fact & Dimension tables)
 
-**Project's Objective:**
-To develop a comprehensive credit card weekly dashboard which provides real-time insights to key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations more effectively..
+🚀 Key Technical Implementation
+1. SQL Data Transformation
+I used SQL to clean and prepare the raw transaction data before importing it into Power BI.
+2. Advanced DAX Measures
+To track performance dynamically, I developed custom DAX formulas:
+Current Week Revenue: Current_Week_Revenue = CALCULATE(SUM('cc_detail'[Revenue]), FILTER(ALL('cc_detail'), 'cc_detail'[Week_Num2] = MAX('cc_detail'[Week_Num2])))
+WoW Revenue Growth: Calculated the 28.8% increase by comparing Current vs. Previous week metrics.
+
+📊 Strategic Business Insights
+Revenue Concentration: 93% of transaction volume is driven by Blue & Silver card tiers, suggesting a massive opportunity for upselling to Gold/Platinum.
+High-Value Segments: Graduates and Business professionals contribute $37M to the total revenue.
+
+Risk Mitigation: Identified that Self-employed individuals are most likely to be delinquent (6.06% overall rate). I recommended a targeted risk-scoring model for this segment.
+Geographic Focus: TX, NY, and CA contribute 68% of total revenue.
+
+📈 Dashboard Preview
+
 
 **🔗 [Live Dashboard](https://app.powerbi.com/links/S7wsCdJhc4?ctid=c6e549b3-5f45-4032-aae9-d4244dc5b2c4&pbi_source=linkShare&bookmarkGuid=a131ec29-5c07-4fb3-b422-ed51f19c0444)**
 
