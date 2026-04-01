@@ -1,4 +1,13 @@
 # Credit_Card_Transaction and-Customer_Analysis using Power BI
+💳 Credit Card Financial Analysis & Risk Engine
+Impact: Developed an end-to-end Power BI & SQL solution to analyze $57M in revenue, identifying a 28.8% WoW growth spike and a 6.06% delinquency risk across customer segments.
+🎯 Business Challenge
+The goal was to move from static, manual reporting to a dynamic dashboard that tracks real-time KPIs for a credit card provider. Stakeholders needed to understand revenue drivers, customer demographics, and financial risk (delinquency) to optimize marketing spend and credit limits.
+🛠️ Tech Stack & Skills
+Database: PostgreSQL (ETL & Data Cleaning)
+Visualization: Power BI Desktop
+DAX: Time Intelligence, Measures, and Calculated Columns
+Data Modeling: Star Schema (Fact & Dimension tables)
 **Project's Objective:**
 To develop a comprehensive credit card weekly dashboard which provides real-time insights to key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations more effectively..
 
