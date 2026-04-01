@@ -35,6 +35,7 @@ CALCULATE(
         ALL('cc_detail'), 
         'cc_detail'[Week_Num2] = MAX('cc_detail'[Week_Num2]) - 1
     )
+    
 Week-over-Week (WoW) Revenue Growth:WoW_Revenue_Growth = 
 DIVIDE(
     ([Current_Week_Revenue] - [Previous_Week_Revenue]), 
