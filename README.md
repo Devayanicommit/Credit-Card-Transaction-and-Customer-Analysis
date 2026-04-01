@@ -1,6 +1,7 @@
 # Credit_Card_Transaction and-Customer_Analysis using Power BI
 
 💳 Credit Card Financial Analysis & Risk Engine
+
 Impact: Developed an end-to-end Power BI & SQL solution to analyze $57M in revenue, identifying a 28.8% WoW growth spike and a 6.06% delinquency risk across customer segments.
 
 🎯 Business Challenge
